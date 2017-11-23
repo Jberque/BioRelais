@@ -7,7 +7,7 @@ class Db {
 		$host = 'localhost';
 		$user = 'root';
 		$pass = 'root';
-		$base = 'raffouxj_vlib';
+		$base = 'berquej_biorelai';
 		if (!isset(self::$instance)) {
 			$pdo_options = array(
 				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
